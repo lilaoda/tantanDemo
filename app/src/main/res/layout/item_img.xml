@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lhy.tantan.MainActivity">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="220dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/text_postion"
+            android:text="ABCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|left"
+            android:text="我是美女"/>
+</FrameLayout>
